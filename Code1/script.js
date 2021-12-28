@@ -17,11 +17,27 @@
 // console.log(ccountry);
 // console.log(language);
 
-let language = "Urdu";
-const province = "Punjab";
-language = "English";
-language = "Punjabi";
-// province = "Sindh";
+// let language = "Urdu";
+// const province = "Punjab";
+// language = "English";
+// language = "Punjabi";
+// // province = "Sindh";
 
-console.log(language);
-console.log(province);
+// console.log(language);
+// console.log(province);
+
+let halfPopulation = 2300000000 / 2;
+let population = 2300000000;
+population++;
+
+console.log(halfPopulation);
+console.log(population);
+
+let finlandPopulation = 600000000;
+let pop = population > finlandPopulation;
+console.log(pop);
+
+const description =
+  "Portugal is in Europe.and its 11 million people speak portuguese";
+
+console.log(description);
