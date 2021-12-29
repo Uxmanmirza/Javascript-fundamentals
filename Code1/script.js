@@ -26,18 +26,47 @@
 // console.log(language);
 // console.log(province);
 
-let halfPopulation = 2300000000 / 2;
-let population = 2300000000;
-population++;
+// let halfPopulation = 2300000000 / 2;
+// let population = 2300000000;
+// population++;
 
-console.log(halfPopulation);
-console.log(population);
+// console.log(halfPopulation);
+// console.log(population);
 
-let finlandPopulation = 600000000;
-let pop = population > finlandPopulation;
-console.log(pop);
+// let finlandPopulation = 600000000;
+// let pop = population > finlandPopulation;
+// console.log(pop);
 
-const description =
-  "Portugal is in Europe.and its 11 million people speak portuguese";
+// const description =
+//   "Portugal is in Europe.and its 11 million people speak portuguese";
 
-console.log(description);
+// console.log(description);
+
+// BMI = mass / height ** 2
+let marksMass = 92;
+let marksHeight = 1.69;
+let johnMass = 78;
+let johnHeight = 1.95;
+
+let marksBMI = 92 / 1.69 ** 2;
+let johnBMI = 78 / 1.95 ** 2;
+console.log(marksBMI);
+console.log(johnBMI);
+
+let markHigherBMI = marksBMI > johnBMI;
+// markHigherBMI = true;
+
+console.log(markHigherBMI);
+
+// BMI = mass / (height * height)(mass in kg and height in meter )
+
+marksBMI = 92 / (1.69 * 1.69);
+johnBMI = 78 / (1.95 * 1.95);
+
+console.log(marksBMI);
+console.log(johnBMI);
+
+// let markHigherBMI = marksBMI > johnBMI;
+// markHigherBMI = true;
+
+console.log(markHigherBMI);
