@@ -1,3 +1,5 @@
+// switch function ...
+
 // let language = "spanish";
 
 // switch (language) {
@@ -20,8 +22,9 @@
 
 //   default:
 //     console.log("Great language too:) ");
-
 // }
+
+// Tipp app by the If/else statement
 let tip;
 let bill = Number(prompt("What is your bill amount?"));
 
@@ -41,10 +44,11 @@ if (bill >= 50 && bill <= 300) {
   );
 }
 
-// let bill = Number(prompt("What is your bill amount?"));
-// let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-// console.log(
-//   `The bill was ${bill} , the tip was ${tip} , your total bill will be ${
-//     bill + tip
-//   } `
+// // Tipp app by the conditional operator
+// // let bill = Number(prompt("What is your bill amount?"));
+// // let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// // console.log(
+// //   `The bill was ${bill} , the tip was ${tip} , your total bill will be ${
+// //     bill + tip
+// //   } `
 // );
