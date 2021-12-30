@@ -36,3 +36,31 @@ let pernGermeny = percentageOfWorld1(8757875);
 console.log(pernPakistan);
 console.log(pernUSA);
 console.log(pernGermeny);
+
+// Arrow Function
+
+let percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+let perntPakistan = percentageOfWorld1(160);
+let perntUSA = percentageOfWorld1(160374);
+let perntGermeny = percentageOfWorld1(870000);
+
+console.log(perntPakistan, perntUSA, perntGermeny);
+
+// Function calling within the function
+
+let describePopulation = function (country, population) {
+  let percentage = percentageOfWorld5(population);
+  return `${country} has ${population}, which is about ${percentage} of the world`;
+};
+let percentageOfWorld5 = function (population) {
+  return (population / 7900) * 100;
+};
+
+let perntaPakistan = describePopulation("Pakistan", 1607);
+let perntaUSA = describePopulation("USA", 124234);
+let perntaGermeny = describePopulation("Germeny", 900000);
+
+console.log(perntaPakistan);
+console.log(perntaUSA);
+console.log(perntaGermeny);
