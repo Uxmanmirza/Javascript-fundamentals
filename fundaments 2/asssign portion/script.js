@@ -1,6 +1,6 @@
 "use strict";
 
-// Simple Function
+/*// Simple Function
 function describeCountry(country, population, capitalCity) {
   return `${country} has ${population} people and its capital city is ${capitalCity}`;
 }
@@ -63,4 +63,46 @@ let perntaGermeny = describePopulation("Germeny", 900000);
 
 console.log(perntaPakistan);
 console.log(perntaUSA);
-console.log(perntaGermeny);
+console.log(perntaGermeny); */
+
+// Simple Array
+const population = [23, 45, 67, 78];
+
+console.log(population.length);
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+let perPakistan = percentageOfWorld1(23);
+let perUSA = percentageOfWorld1(45);
+let perGermeny = percentageOfWorld1(67);
+let perIndia = percentageOfWorld1(78);
+
+// console.log(perPakistan);
+// console.log(perUSA);
+// console.log(perGermeny);
+// console.log(perIndia);
+
+const percentage = [perPakistan, perUSA, perGermeny, perIndia];
+
+console.log(percentage);
+
+// Array methods
+
+const pakNeigh = ["India", "China", "Afghanistan", "Iran"];
+console.log(pakNeigh);
+pakNeigh.push("Utopia");
+console.log(pakNeigh);
+// pakNeigh.unshift("Utopia");
+// console.log(pakNeigh);
+// pakNeigh.pop();
+// console.log(pakNeigh);
+pakNeigh.pop("Utopia");
+console.log(pakNeigh);
+if (!pakNeigh.includes("Germeny")) {
+  console.log("Probably not a central Enropean country ");
+}
+
+pakNeigh[pakNeigh.indexOf("india")];
+console.log(pakNeigh);
