@@ -66,7 +66,7 @@ console.log(perntaUSA);
 console.log(perntaGermeny); */
 
 // Simple Array
-const population = [23, 45, 67, 78];
+/*const population = [23, 45, 67, 78];
 
 console.log(population.length);
 
@@ -105,4 +105,4 @@ if (!pakNeigh.includes("Germeny")) {
 }
 
 pakNeigh[pakNeigh.indexOf("india")];
-console.log(pakNeigh);
+console.log(pakNeigh);*/
