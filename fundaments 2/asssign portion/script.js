@@ -106,3 +106,26 @@ if (!pakNeigh.includes("Germeny")) {
 
 pakNeigh[pakNeigh.indexOf("india")];
 console.log(pakNeigh);*/
+
+let myCountry = {
+  country: "Pakistan",
+  capital: "Islamabad",
+  language: "Urdu",
+  population: "23 Millions",
+  neighbours: 0,
+  mySummary: function () {
+    return `${this.country} has ${this.population} ${this.language}-speaking people , ${this.neighbours.length} countries and a capital is called ${this.capital}.     `;
+  },
+  checkIsland: function () {
+    // this.island = false;
+    return (this.isIsland = this.neighbours.length === 0 ? true : false);
+  },
+};
+
+let myCountry2 = [myCountry.mySummary(), myCountry.checkIsland()];
+console.log(myCountry2);
+
+// myCountry.population = "25 Millions";
+// console.log(myCountry.population);
+// myCountry["population"] = "23 Millions";
+// console.log(myCountry.population);
