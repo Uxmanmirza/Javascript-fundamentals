@@ -107,7 +107,8 @@ if (!pakNeigh.includes("Germeny")) {
 pakNeigh[pakNeigh.indexOf("india")];
 console.log(pakNeigh);*/
 
-let myCountry = {
+// Object  and its methods
+/*let myCountry = {
   country: "Pakistan",
   capital: "Islamabad",
   language: "Urdu",
@@ -128,4 +129,4 @@ console.log(myCountry2);
 // myCountry.population = "25 Millions";
 // console.log(myCountry.population);
 // myCountry["population"] = "23 Millions";
-// console.log(myCountry.population);
+// console.log(myCountry.population);*/
