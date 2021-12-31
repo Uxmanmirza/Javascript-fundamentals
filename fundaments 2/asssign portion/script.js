@@ -130,3 +130,56 @@ console.log(myCountry2);
 // console.log(myCountry.population);
 // myCountry["population"] = "23 Millions";
 // console.log(myCountry.population);*/
+
+//for loop
+// for (let i = 1; i <= 50; i++) {
+//   console.log(`Voter number ${i} is currenty voting`);
+// }
+
+/*function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+let perPakistan = percentageOfWorld1(23);
+let perUSA = percentageOfWorld1(45);
+let perGermeny = percentageOfWorld1(67);
+let perIndia = percentageOfWorld1(78);
+
+// console.log(perPakistan);
+// console.log(perUSA);
+// console.log(perGermeny);
+// console.log(perIndia);
+
+const percentage = [perPakistan, perUSA, perGermeny, perIndia];
+
+console.log(percentage);
+
+let percentages = [23, 45, 67, 78];
+let percentage2 = [];
+
+for (let i = 0; i < percentages.length; i++) {
+  const perc = percentageOfWorld1(percentages[i]);
+  percentage2.push(perc);
+}
+
+console.log(percentage2);
+
+let listOfNeighbours = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+for (let i = 0; i < listOfNeighbours.length; i++)
+  for (let y = 0; y < listOfNeighbours[i].length; y++)
+    console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+
+//While Loop
+
+const percentages3 = [];
+let i = 0;
+while (i < percentages.length) {
+  const perc = percentageOfWorld1(percentages[i]);
+  percentages3.push(perc);
+  i++;
+}
+console.log(percentages3);*/
